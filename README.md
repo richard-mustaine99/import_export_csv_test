@@ -37,6 +37,6 @@ id|"nombre_completo"|"cod_entidad"|"cod_tramo"|"estado"|"fecha"|"causales"
 Mientras que el archivo a exportar es el siguiente:
 "id"|"nombre"|"apellido_paterno"|"apellido_materno"|"cod_entidad"|"cod_tramo"|"estado"|"fecha"|"causales"
 
-Igualmente, se dejará un archivo .txt en donde se especifican los requerimientos que se solicitaban para este caso.
+Igualmente, se dejará un archivo .txt en donde se especifican los requerimientos que se solicitaban para este caso junto con el archivo csv con el que se hizo la prueba.
 
 
