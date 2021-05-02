@@ -1,0 +1,22 @@
+Dado el archivo data_desafio_bb.csv que se adjunta, usted debe construir un script/programa que cargue los datos del archivo a una base de datos con las siguientes características:
+
+1.- Debe separar el nombre completo en sus respectivos atributos (nombres - apellido paterno - apellido materno)
+2.- Debe cargar las causales en una tabla independiente relacionada a la de beneficiarios
+3.- Debe almacenar la fecha como tipo date
+
+Posterior a generar los registro en la bd debe generar un nuevo csv con las siguientes características:
+
+1.- Debe llamarse respuesta_desafio_bb.csv
+2.- Debe usar el carácter |  (pipe) como separador de campos
+3.- Debe contener los datos del beneficiario en el mismo orden que el csv original (manteniendo el nombre por separado)
+4.- Debe contener una única causal por cada fila
+
+ejemplo:
+
+data_desafio_bb.csv:
+"id"|"nombre_completo"|"cod_entidad"|"cod_tramo"|"estado"|"fecha"|"causales"
+1|Gonzalo Felipe - Vitta - Fuentes|99999|4|EXTINTO|20110416|INGRESO PROMEDIO DEL BENEFICIARIO,PAGO DEL BENEFICIO INFORMADO
+
+respuesta_desafio_bb.csv
+1|Gonzalo Felipe|Vitta|Fuentes|99999|4|EXTINTO|20110416|INGRESO PROMEDIO DEL BENEFICIARIO
+1|Gonzalo Felipe|Vitta|Fuentes|99999|4|EXTINTO|20110416|PAGO DEL BENEFICIO INFORMADO
